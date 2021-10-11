@@ -1,6 +1,6 @@
 # Dominant colours
 
-Dominant colour displays the most dominant colour of images realted to your searched query.
+Dominant colours displays the most relevant colours of images realted to your searched query.
 
 ## Installation
 
