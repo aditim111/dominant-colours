@@ -1,4 +1,4 @@
-# Dominant colour
+# Dominant colours
 
 Dominant colour displays the most dominant colour of images realted to your searched query.
 
