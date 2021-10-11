@@ -1,0 +1,165 @@
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  padding: 2em 2em;
+  background: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #737373;
+  max-width: 330px;
+}
+small {
+  font-size: 0.7rem;
+  color: #737373;
+  max-width: 330px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0 1.38rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #212121;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+  margin: 16px 0;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main--container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  place-content: center;
+  gap: 1rem;
+}
+
+.card {
+  border-radius: 4px;
+  background-color: #ffff;
+  box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 450px;
+}
+.card img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.card article {
+  padding: 1em;
+}
+.sort-by {
+  box-sizing: border-box;
+  padding: 3px;
+  color: rgb(100, 100, 100);
+  outline: none;
+  width: 70px;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 50px;
+  justify-content: flex-end;
+  position: absolute;
+  right: 20px;
+  color: rgb(100, 100, 100);
+  outline: none;
+}
+
+.search-block {
+  width: 250px;
+  position: relative;
+  margin: 30px;
+}
+
+.txt {
+  box-sizing: border-box;
+  padding: 10px 35px 10px 10px;
+  color: rgb(100, 100, 100);
+  outline: none;
+  width: 250px;
+  border: 1px solid rgb(100, 100, 100);
+}
+
+input[placeholder][class="txt"] {
+  color: #000;
+}
+
+.txt:focus {
+  border: 1px solid #ddd;
+}
+
+.btn {
+  padding-top: 2px;
+  color: rgb(100, 100, 100);
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  cursor: pointer;
+}
+
+.i {
+  min-width: 20px;
+  color: #000;
+}
